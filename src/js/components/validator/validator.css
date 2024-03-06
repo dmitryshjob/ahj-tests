@@ -1,0 +1,12 @@
+.headmast {
+  display: grid;
+  gap: 40px;
+}
+
+.headmast h2 {
+  font-size: 42px;
+}
+
+.headmast h3 {
+  font-size: 30px;
+}

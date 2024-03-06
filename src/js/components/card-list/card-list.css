@@ -1,0 +1,17 @@
+.cards {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+}
+
+.card {
+  width: 85px;
+  height: 55px;
+  border: 1px solid grey;
+  filter: grayscale(1);
+}
+
+.card-active {
+  filter: grayscale(0);
+  border: 2px solid rgb(21, 18, 230);
+}

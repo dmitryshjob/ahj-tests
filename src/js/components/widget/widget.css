@@ -1,0 +1,10 @@
+.widget {
+  background-color:white;
+  display: grid;
+  gap: 60px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}

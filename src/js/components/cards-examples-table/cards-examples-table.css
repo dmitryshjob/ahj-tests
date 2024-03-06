@@ -1,0 +1,28 @@
+.table {
+  width: 400px;
+  border-spacing: 0;
+  border-collapse: collapse;
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 12px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+thead {
+  border-bottom: 2px solid #7c7373;
+}
+
+tr > td:first-child {
+  border-right: 1px solid #7c7373;
+}
+
+.table-bordered,
+tr {
+  border: 1px solid #7c7373;
+}
+
+td {
+  padding: 5px;
+}
